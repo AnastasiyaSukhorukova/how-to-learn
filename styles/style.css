@@ -253,6 +253,21 @@
   z-index: -1;
 }
 
+.kaufman {
+  background-color: #000000;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg)
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
