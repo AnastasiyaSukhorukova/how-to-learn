@@ -23,13 +23,16 @@
   /*border: 1px solid red;*/
 }
 
-.logo__place_header {
+.logo {
   position: absolute;
-  top:30px;
-  left: 64px;
   width: 228px;
   height: 32px;
-  /*border: 1px solid red;*/
+}
+
+.logo__place_header {
+  background-image: url(../images/logo_place_header.svg);
+  left: 64px;
+  top:30px;
 }
 
 .header__title {
@@ -63,7 +66,6 @@
 
 .header__main-illustration {
   position: absolute;
-  background-image: url(../images/header-image.png);
   background-size: cover;
   bottom: 0;
   right: 0;
@@ -88,7 +90,7 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
+  padding-top: 100px;
   /*border: 1px solid red;*/
 }
 
@@ -142,7 +144,8 @@
 }
 
 .digits {
-  margin: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   /*border: 1px solid red;*/
 }
 
@@ -174,7 +177,6 @@
   flex-wrap: wrap;
   margin: auto;
   justify-content: space-between;
-  margin-bottom: 100px;
   /*border: 1px solid red;*/
 }
 
@@ -203,19 +205,18 @@
 }
 
 .feynman {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   background-color: #f2f2f2;
-  margin-top: 100px;
   height: 890px;
   position: relative;
   z-index: 1;
+  padding-top: 100px;
 }
 
 .feynman__title {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 648px;
   margin: auto;
-  margin-top: 100px;
   text-align: center;
   font-size: 120px;
   line-height: 1.15;
@@ -226,7 +227,7 @@
   width: 400px;
   margin: auto;
   margin-top: 60px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   text-align: center;
   font-size: 36px;
   line-height: 51px;
@@ -234,7 +235,7 @@
 }
 
 .feynman__link {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   right: 48px;
   top: 445px;
   position: absolute;
@@ -251,23 +252,38 @@
   left: 0px;
   bottom: 0px;
   z-index: -1;
+  /*border: 1px solid red;*/
 }
 
 .kaufman {
-  background-color: #000000;
+  background-color: #000;
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
   color: white;
+  /*border: 1px solid red;*/
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  /*border: 1px solid red;*/
+  margin-top: 20px;
+  z-index: 1;
 }
 
-.kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg)
-}
+/*.table_theme_dark {
+}*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -275,4 +291,95 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
+
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  position: absolute;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  /*border: 1px solid red;*/
+  top: 0px;
+  z-index: -1;
+}
+
+.footer {
+  min-height: 350px;
+  /*border: 1px solid red;*/
+  background-color: #000;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.footer__columns {
+  /*border: 1px solid seagreen;*/
+  display: flex;
+  position: relative;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.footer__column_content_copyright {
+  /*border: 1px solid red;*/
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo__place_footer {
+  /*border: 1px solid red;*/
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 18px;
+  /*border: 1px solid yellow;*/
+  margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  color: white;
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  /*border: 1px solid red;*/
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  /*border: 1px solid blue;*/
+  left: 0px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  /*border: 1px solid red;*/
+  background-size: 16px 16px;
+  margin-right: 10px;
+}
+
+
