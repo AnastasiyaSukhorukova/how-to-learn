@@ -1,0 +1,10 @@
+.rotation {
+  transform: rotate(360deg);
+  transition-property: transform;
+  transition-duration: 20s;
+  animation-name: rotation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+
+}

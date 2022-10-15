@@ -1,0 +1,11 @@
+.feynman__images {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+  width: 867px;
+  height: 637px;
+  object-fit: cover;
+  /*border: 1px solid red;*/
+}
