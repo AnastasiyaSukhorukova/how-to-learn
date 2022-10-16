@@ -1,5 +1,7 @@
 .cards__description {
     margin: 0;
-    display: inline-block;
-    border: 1px solid red;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: normal;
+    /*outline: 1px solid red;*/
 }

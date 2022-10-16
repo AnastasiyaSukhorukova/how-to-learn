@@ -6,13 +6,13 @@
   /*border: 1px solid red;*/
 }
 
-.two-columns__paragraph:first-of-type {
+.two-columns__paragraph:nth-child(1) {
   margin-top: 0;
   margin-bottom: 30px;
   /*border: 1px solid red;*/
 }
 
-.two-columns__paragraph:last-of-type {
+.two-columns__paragraph:nth-child(3) {
   margin-top: 30px;
   margin-bottom: 0;
   /*border: 1px solid red;*/
