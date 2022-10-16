@@ -1,0 +1,5 @@
+.cards__description {
+    margin: 0;
+    display: inline-block;
+    border: 1px solid red;
+}
