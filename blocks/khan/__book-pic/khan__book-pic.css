@@ -3,5 +3,7 @@
   height: 620px;
   margin: 0;
   margin-right: 48px;
+  object-fit: cover;
+  object-position: top;
   /*outline: 1px solid red;*/
 }
