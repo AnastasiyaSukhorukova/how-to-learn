@@ -1,12 +1,10 @@
 .khan__buy-link {
   /*outline: 1px solid red;*/
-  font-size: 42px;
   line-height: 30px;
+  font-size: 42px;
   font-weight: normal;
   margin: 0;
   font-style: normal;
   color: #2f80ed;
   text-decoration: none;
-  display: inline-block;
-  height: 620px;
 }
